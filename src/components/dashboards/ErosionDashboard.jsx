@@ -198,7 +198,7 @@ const ErosionDashboard = () => {
         <h1>🌊 Coastal Erosion Monitoring System</h1>
       </div>
       
-      <img className="ig" src="\src\assets\example.gif" alt="Coastal erosion example" />
+      <img className="ig" src="https://drive.google.com/file/d/1brUT4RkKiZCIV4O-OJraE-vB3wO3SKTi/view?usp=sharing" alt="Coastal erosion example" />
 
       <div className="dashboard-grid">
         <div className="chart-container large-chart">
