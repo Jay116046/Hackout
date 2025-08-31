@@ -1,0 +1,100 @@
+/* StormData.css - External styles for SurgeDashboard */
+
+.surge-dashboard-container {
+  font-family: sans-serif;
+  padding: 20px;
+  background-color: #f4f7f6;
+}
+
+.surge-dashboard-header {
+  text-align: center;
+  color: #333;
+}
+
+.surge-dashboard-status {
+  text-align: center;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.surge-dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 20px;
+}
+
+.surge-dashboard-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  min-height: 350px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  color: #333;
+}
+
+.surge-dashboard-card-title {
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #333;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+
+.surge-dashboard-alert-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.surge-dashboard-alert-box {
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.surge-dashboard-alert-safe { background-color: #22c55e; }
+.surge-dashboard-alert-warning { background-color: #f59e0b; }
+.surge-dashboard-alert-danger { background-color: #ef4444; }
+
+.surge-dashboard-alert-station-name {
+  font-weight: bold;
+  flex: 1;
+}
+.surge-dashboard-alert-level {
+  font-style: italic;
+  flex: 1;
+  text-align: center;
+}
+.surge-dashboard-alert-value {
+  font-family: monospace;
+  flex: 1;
+  text-align: right;
+}
+
+.surge-dashboard-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.surge-dashboard-th {
+  border-bottom: 2px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  background-color: #f9f9f9;
+}
+.surge-dashboard-td {
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+}
+
+.surge-dashboard-chart {
+  width: 100%;
+  height: 300px;
+  min-height: 300px;
+  max-height: 350px;
+}
