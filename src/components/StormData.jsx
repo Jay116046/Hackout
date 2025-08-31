@@ -25,12 +25,6 @@ ChartJS.register(
   Filler
 );
 
-
-
-
-
-
-
 // --- Configuration ---
 const WEBSOCKET_URL = 'wss://welcometofightclub-hackout-server.hf.space/ws/surge';
 const API_REQUEST = {

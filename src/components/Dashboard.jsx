@@ -7,7 +7,8 @@ import StormSurgeDashboard from './dashboards/StormSurgeDashboard';
 import CoastalErosionDashboard from './dashboards/CoastalErosionDashboard';
 import MarinePollutionDashboard from './dashboards/MarinePollutionDashboard';
 import IllegalActivityDashboard from './dashboards/IllegalActivityDashboard';
-import { Waves, Activity, Droplets, ShieldAlert } from 'lucide-react';
+import CoastalChat from './dashboards/CoastalChat';
+import { Waves, Activity, Droplets, ShieldAlert,MessageCircle } from 'lucide-react';
 
 const dashboards = [
   {
@@ -34,6 +35,12 @@ const dashboards = [
     icon: <ShieldAlert className="w-6 h-6 mr-2" />,
     component: IllegalActivityDashboard,
   },
+  {
+    id: 'chat-part',
+    name: 'Chat With Autority',
+    icon: <MessageCircle className="w-6 h-6 mr-2" />,
+    component: CoastalChat,
+  }
 ];
 
 const Dashboard = () => {
@@ -75,6 +82,7 @@ const Dashboard = () => {
             </button>
           ))}
         </nav>
+        <button src="" className="border-white border-[2px] p-2 rounded-md">Send Alert SMS</button>
         <footer className="mt-8 text-xs text-gray-400 text-center">
           &copy; 2025 EnviroMaritime Monitor
         </footer>

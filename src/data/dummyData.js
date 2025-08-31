@@ -1,37 +1,27 @@
 export const userRoles = [
   {
-    id: 'disaster-management',
-    name: 'Disaster Management Department',
+    id: 'dStormSurgeDashboard',
+    name: 'StormSurgeDashboard',
     description: 'Real-time alerts, storm tracking, and report generation',
-    icon: '🚨',
     color: 'coastal'
   },
   {
-    id: 'city-government',
-    name: 'Coastal City Government',
+    id: 'coastal_eErosion_dashboard',
+    name: 'Coastal Erosion Dashboard',
     description: 'Infrastructure monitoring and sea-level rise tracking',
-    icon: '🏛️',
+
     color: 'ocean'
   },
   {
-    id: 'environmental-ngo',
-    name: 'Environmental NGO',
-    description: 'Pollution detection and environmental trend analysis',
-    icon: '🌱',
-    color: 'ocean'
-  },
-  {
-    id: 'fisherfolk',
-    name: 'Fisherfolk',
-    description: 'Fishing safety alerts and weather warnings',
-    icon: '🐟',
+    id: 'marine_pollution_dashboard ',
+    name: 'Marine Pollution dashboard',
+    description: 'Water quality monitoring and pollution source identification',
     color: 'coastal'
   },
   {
-    id: 'civil-defence',
-    name: 'Civil Defence Team',
-    description: 'Emergency response and evacuation management',
-    icon: '🚑',
+    id: 'illegal_activity_dashboard',
+    name: 'Illegal Activity Dashboard',
+    description: 'Vessel tracking and anomaly detection',
     color: 'coastal'
   }
 ]
