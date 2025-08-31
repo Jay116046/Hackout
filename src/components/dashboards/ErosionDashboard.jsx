@@ -198,7 +198,7 @@ const ErosionDashboard = () => {
         <h1>🌊 Coastal Erosion Monitoring System</h1>
       </div>
       
-      <img className="ig" src="https://drive.google.com/uc?export=download&id=1brUT4RkKiZCIV4O-OJraE-vB3wO3SKTi" alt="Coastal erosion example" />
+      <video autoPlay loop muted className="ig" src="src/assets/clip.mp4" alt="Coastal erosion example"/>
 
       <div className="dashboard-grid">
         <div className="chart-container large-chart">
